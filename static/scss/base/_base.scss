@@ -6,11 +6,10 @@
     box-sizing: inherit;
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 62.5%; //1rem = 10px/
-    -webkit-font-smoothing: antialiased;
+html{
+    font-size: 62.5%; //1 rem = 10px
 
+    
     @include respond(tab-land){
         font-size: 56.25%;
     }
@@ -24,13 +23,15 @@ html {
     @include respond(big-desktop){
         font-size: 75%;
     }
+
+    
 }
 
 body {
-    font-family: "Lato", sans-serif; //Change font to requirement
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.7;
-    color: $color-grey-dark-1;
+    color: $color-grey-dark;
     padding: 3rem;
 
     box-sizing: border-box;
@@ -39,4 +40,9 @@ body {
     @include respond(tab-port){
         padding: 0;
     }
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
 }

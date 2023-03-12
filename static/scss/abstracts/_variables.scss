@@ -1,45 +1,38 @@
-$bp-largest: 75em; //1200px
-$bp-large: 68.75em; //1100px
-$bp-medium: 56.25em; //900px
-$bp-small: 37.5em; //600px
-$bp-xs: 33.5em;
-
-$color-primary: #eb2f64;
-$color-primary-light: #ff3366;
-$color-primary-dark: #ba265d;
-$color-grey-light-1: #faf9f9;
-$color-grey-light-2: #f4f2f2;
-$color-grey-light-3: #f0eeee;
-$color-grey-light-4: #ccc;
-
-$color-grey-dark-1: #333;
-$color-grey-dark-2: #777;
-$color-grey-dark-3: #999;
-
-$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-$line: 1px solid var($color-grey-light-2);
-$shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-
-// Outlines
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
 $outline-color: $color-primary;
 
-// Font Weights
-$font-light: 300;
-$font-normal: 400;
-$font-medium: 500;
-$font-semi-bold: 600;
-$font-bold: 700;
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
 
 
-// font sizes
-$font-xsm: 1rem;
-$font-sm: 1.2rem;
-$font-base: 1.4rem;
-$font-lg: 1.6rem;
-$font-xlg: 1.8rem;
-$font-xxlg: 2.0rem;
-$font-xxxlg: 2.4rem;
-$font-xxxxlg: 3.2rem;
-$font-xxxxxlg: 4.8rem;
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
 
-$border-radius: 1.4rem;
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+//FONT
+$default-font-size: 1.6rem;
+
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6em;
+$gutter-horizontal: 6rem; 
+
+//box shadow
+
+$shadowOne: 0 1.5rem 4rem rgba($color-black, .15);
+
+//border radius
+
+$border-radius: 4px;

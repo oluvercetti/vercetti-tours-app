@@ -13,25 +13,31 @@
 
 // 3. Base stuff
 @import
-    //'base/animations',
+    'base/animations',
     //'base/fonts',
     'base/base', 
-    //'base/content',
+    'base/utilities',
     'base/typography';
 
 // 4. Layout-related sections
 @import
     'layout/header',
     'layout/footer',
-    'layout/hero',
-    'layout/section';
+    'layout/grid',
+    'layout/navigation';
 
 // 5. Components
-//@import
-   // 'components/account',
-   // 'components/button';
+@import
+    "components/button",
+    "components/composition",
+    "components/feature-box",
+    "components/card",
+    "components/story",
+    "components/bg-video",
+    "components/form",
+    "components/popup";
 
 // 6. Page-specific styles
-//@import 'base/helpers';
+@import "pages/home";
 
 
