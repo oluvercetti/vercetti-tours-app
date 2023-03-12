@@ -13,13 +13,13 @@
         <nav class="navigation__nav">
             <ul class="navigation__list">
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link"><span>01</span>About Vetours</a>
+                    <a href="/about" class="navigation__link"><span>01</span>About Vetours</a>
                 </li>
                 <li class="navigation__item">
                     <a href="#" class="navigation__link"><span>02</span>Your Benefits</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link"><span>03</span>Popular tours</a>
+                    <a href="tours" class="navigation__link"><span>03</span>Popular tours</a>
                 </li>
                 <li class="navigation__item">
                     <a href="#" class="navigation__link"><span>04</span>Stories</a>
