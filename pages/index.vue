@@ -1,9 +1,21 @@
 <template>
-  <Tutorial />
+    <div>
+        <AppNavigation />
+        <HeroSection />
+        <main>
+            <AboutSection />
+            <FeaturesSection />
+            <ToursSection />
+            <StoriesSection />
+            <BookSection />
+        </main>
+        <AppFooter />
+        <BookTourModal />
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
-}
+    name: "IndexPage",
+};
 </script>
