@@ -1,9 +1,7 @@
 <template>
     <div>
         <ErrorBoundary>
-            <AppHeader />
             <Nuxt />
-            <AppFooter />
         </ErrorBoundary>
     </div>
 </template>
