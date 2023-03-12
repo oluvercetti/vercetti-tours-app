@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px/
+    -webkit-font-smoothing: antialiased;
+
+    @include respond(tab-land){
+        font-size: 56.25%;
+    }
+
+
+    @include respond(tab-port){
+        font-size: 50%;
+    }
+
+
+    @include respond(big-desktop){
+        font-size: 75%;
+    }
+}
+
+body {
+    font-family: "Lato", sans-serif; //Change font to requirement
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark-1;
+    padding: 3rem;
+
+    box-sizing: border-box;
+
+    
+    @include respond(tab-port){
+        padding: 0;
+    }
+}
