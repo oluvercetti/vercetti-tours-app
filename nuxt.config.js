@@ -21,11 +21,13 @@ export default {
         ],
         link: [
             { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+            { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" },
         ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
+        "static/scss/main.scss",
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -33,7 +35,11 @@ export default {
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
-    components: true,
+    components: [{
+        path: "~/components",
+        pathPrefix: false,
+        extensions: ["vue"],
+    }],
 
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
     buildModules: [
