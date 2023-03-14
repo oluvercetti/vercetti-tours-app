@@ -3,12 +3,10 @@
         <input id="navi-toggle" type="checkbox" class="navigation__checkbox">
 
         <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
+            <span class="navigation__icon" />
         </label>
 
-        <div class="navigation__background">
-&nbsp;
-        </div>
+        <div class="navigation__background" />
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
