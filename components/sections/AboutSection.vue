@@ -12,19 +12,15 @@
                     You're going to fall in love with nature
                 </h3>
                 <p class="paragraph">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolorum quaerat sunt mollitia incidunt excepturi ea ab
-                    modi voluptas! Suscipit tempora magnam id maiores
-                    consectetur quos molestias tenetur culpa laboriosam accusamus.
+                    Nature is a force that can inspire, challenge, and heal us in ways that we cannot always predict. From the majesty of a mountain peak to the serenity of a quiet forest glade, the natural world offers us endless opportunities to connect with something larger than ourselves.
                 </p>
                 <h3 class="heading-tertiary u-margin-bottom-small">
                     Live adventures like you have never before
                 </h3>
                 <p class="paragraph">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Assumenda delectus dolorem enim minus.
+                    Whether you're an avid hiker, a casual nature enthusiast, or simply someone who loves to take in the beauty of the world around you, there's no denying that nature has a way of capturing our hearts and minds. So if you're ready to fall in love with the wonders of the natural world, there's no better time than now to explore all that it has to offer
                 </p>
-                <a href="#" class="btn-text">Learn more &rarr;</a>
+                <a href="/about" class="btn-text">Learn more &rarr;</a>
             </div>
             <div class="col-1-of-2">
                 <div class="composition">
