@@ -8,8 +8,7 @@
                         Explore the world
                     </h3>
                     <p class="feature-box__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro quidemiste ipsa
-                        voluptatum quos.
+                        Life is an adventure - pack your bags, and let's discover something new.
                     </p>
                 </div>
             </div>
@@ -20,8 +19,7 @@
                         Meet Nature
                     </h3>
                     <p class="feature-box__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro quidemiste ipsa
-                        voluptatum quos.
+                        Immerse yourself in the beauty of the natural world and find peace within.
                     </p>
                 </div>
             </div>
@@ -32,8 +30,7 @@
                         Find Your Way
                     </h3>
                     <p class="feature-box__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro quidemiste ipsa
-                        voluptatum quos.
+                        Life can be challenging, but with a plan and action, you can find your path forward.
                     </p>
                 </div>
             </div>
@@ -44,8 +41,7 @@
                         Live a healthier life
                     </h3>
                     <p class="feature-box__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto porro quidemiste ipsa
-                        voluptatum quos.
+                        Make small changes today, and your body and mind will thank you for a happier, healthier tomorrow.
                     </p>
                 </div>
             </div>
