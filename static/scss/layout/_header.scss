@@ -8,7 +8,7 @@
         url(../img/hero-small.jpg);
     background-size: cover;
     background-position: top;
-    position: relative;
+    display: flex;
 
     @supports (clip-path: polygon(0 0) or (-webkit-clip-path: polygon(0 0))) {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -32,9 +32,8 @@
     }
 
     &__logo-box {
-        position: absolute;
-        top: 4rem;
-        left: 4rem;
+        margin-top: 4rem;
+        margin-left: 4rem;
     }
 
     &__logo {
@@ -42,11 +41,11 @@
     }
     
     &__text-box {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        flex: 1 0 auto;
         text-align: center;
+        align-self: center;
+        margin-left: -4rem;
+        margin-top: -4rem;
     }
 }
 
